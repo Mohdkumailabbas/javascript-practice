@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing:border-box;
+   font-family: monospace;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: #fefdfd;
+    font-family: 'Gilroy';
+}
+body{ 
+    font-family: 'Verdana';
+    text-align: center;
+    
+}
+#mybutton{
+    font-size: 3em;
+    background-color:rgb(241, 6, 217);
+    color: rgb(12, 47, 246);
+    margin-top: 25vw;
+    border-radius: 7%;
+    border: 2px solid black;
+}
+#mybutton:hover{
+    color: crimson
+}
+
+#mylabel{
+    font-size: 3em;
+    color: black;
+    margin-top: 70vh;
+}
