@@ -1,9 +1,15 @@
-const mybutton = document.getElementById("mybutton");
-const mylabel = document.getElementById("mylabel");
-const min=1;
-const max=6;
-let randomnumber;
-mybutton.onclick = function(){
-    randomnumber=Math.floor(Math.random()*max)+min;
-    mylabel.textContent=randomnumber;
-}
+var mycheckbox = document.getElementById("mycheckbox");
+var myvisa = document.getElementById("myvisa");
+var submit = document.getElementById("mysubmit");
+var mymastercard = document.getElementById("mymastercard");
+var mypaypal = document.getElementById(" mypaypal");
+var subresult = document.getElementById(" subresult");
+var payresult = document.getElementById(" payresult");
+submit.addEventListener('click', function() {
+    if(mycheckbox.checked){//checked will check whether user has selected it or not
+        subresult.textContent=`You are Subscribed`;
+    }
+    else{
+        subresult.textContent=`You are  Not Subscribed`;
+    }
+});

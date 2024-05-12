@@ -7,28 +7,16 @@
 html,body{
     height: 100%;
     width: 100%;
-    color: #fefdfd;
+    color: #060606;
     font-family: 'Gilroy';
 }
 body{ 
     font-family: 'Verdana';
-    text-align: center;
-    
-}
-#mybutton{
-    font-size: 3em;
-    background-color:rgb(241, 6, 217);
-    color: rgb(12, 47, 246);
-    margin-top: 25vw;
-    border-radius: 7%;
-    border: 2px solid black;
-}
-#mybutton:hover{
-    color: crimson
-}
-
-#mylabel{
-    font-size: 3em;
+    padding: 2vh;
+    font-size: 2vh;
     color: black;
-    margin-top: 70vh;
+}
+button{
+    font-size: 3vw;
+    margin: 2vh;
 }

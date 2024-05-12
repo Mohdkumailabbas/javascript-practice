@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice Roller </title>
+    <title>if statement </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-      <label id="mylabel"></label><br>
-    </div>
-    <button id="mybutton"><h3>Roll</h3</button>
+    <input type="checkbox" id="mycheckbox" name="card">
+    <label for="mycheckbox"> Subscribe</label><br>
+    <input type="radio" id="myvisa" name="card">
+    <label for="myvisa">Visa</label><br>
+    <input type="radio" id="mymastercard" name="card">
+    <label for="mymastercard">Master Card</label><br>
+    <input type="radio" id="mypaypal" name="card">
+    <label for="mypaypal">Paypal</label><br>
+    <!--  radio button is used so we can select one button at a time
+    by giving same name  -->
+    <button type="submit" id="mysubmit"> SUBMIT</button>
+    <p id="subresult"></p>
+    <p id="payresult"></p>
 </body>
 <script src="index.js"></script>
 </html>
