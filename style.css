@@ -1,22 +1,41 @@
-*{
-    margin: 0;
-    padding: 0;
-   box-sizing:border-box;
-   font-family: monospace;
-}
-html,body{
-    height: 100%;
-    width: 100%;
-    color: #060606;
-    font-family: 'Gilroy';
-}
-body{ 
-    font-family: 'Verdana';
-    padding: 2vh;
-    font-size: 2vh;
-    color: black;
-}
-button{
-    font-size: 3vw;
-    margin: 2vh;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*var mycheckbox = document.getElementById("mycheckbox");
+var myvisa = document.getElementById("myvisa");
+var submit = document.getElementById("mysubmit");
+var mymastercard = document.getElementById("mymastercard");
+var mypaypal = document.getElementById(" mypaypal");
+var subresult = document.getElementById(" subresult");
+var payresult = document.getElementById(" payresult");
+submit.addEventListener('click', function() {
+    if(mycheckbox.checked){//checked will check whether user has selected it or not
+        subresult.textContent=`You are Subscribed`;
+    }
+    else{
+        subresult.textContent=`You are  Not Subscribed`;
+    }
+});
+<input type="checkbox" id="mycheckbox" >
+    <label for="mycheckbox"> Subscribe</label><br>
+    <input type="radio" id="myvisa" name="card">
+    <label for="myvisa">Visa</label><br>
+    <input type="radio" id="mymastercard" name="card">
+    <label for="mymastercard">Master Card</label><br>
+    <input type="radio" id="mypaypal" name="card">
+    <label for="mypaypal">Paypal</label><br>
+    <!--  radio button is used so we can select one button at a time
+    by giving same name  -->
+    <button type="submit" id="mysubmit"> SUBMIT</button>
+    <p id="subresult"></p>
+    <p id="payresult"></p>
+
+
+
+    if(isNaN(guess)){
+    window.alert("please enter a valid number");
+   }
+   else if (guess<min|| guess>max){
+    window.alert("please enter a valid number");
+   }
